@@ -21,6 +21,7 @@ Or install it yourself as:
 Examples :
 
 DistanceInWeeks.weeks_in_words((Date.today - 2).strftime('%d-%m-%Y')) 
+
 => less than a week ago
 
 DistanceInWeeks.weeks_in_words((Date.today - 15).strftime('%d-%m-%Y'))
