@@ -1,6 +1,6 @@
 # DistanceInWeeks
 
-TODO: Write a gem description
+DistanceInWeeks is a simple gem to calculate the distance of a given date from today's date in weeks and returns the distance in plain english language.
 
 ## Installation
 
@@ -18,7 +18,26 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Examples :
+
+DistanceInWeeks.weeks_in_words((Date.today - 2).strftime('%d-%m-%Y')) 
+=> less than a week ago
+
+DistanceInWeeks.weeks_in_words((Date.today - 15).strftime('%d-%m-%Y'))
+
+=> about 2 weeks ago
+
+DistanceInWeeks.weeks_in_words((Date.today + 3).strftime('%d-%m-%Y'))
+
+=> about a week from now
+
+DistanceInWeeks.weeks_in_words((Date.today + 25).strftime('%d-%m-%Y'))
+
+=> about 4 weeks from now
+
+## Todos
+
+1. Restrict the usage for only 1 week to 4 weeks rest all to be handled in either no. of days or months
 
 ## Contributing
 
