@@ -37,7 +37,8 @@ DistanceInWeeks.weeks_in_words((Date.today + 25).strftime('%d-%m-%Y'))
 
 ## Todos
 
-1. Restrict the usage for only 1 week to 4 weeks rest all to be handled in either no. of days or months
+1. Restrict the usage for only 1 week to 4 weeks rest all to be handled in either no. of days or months.
+2. A way to implement Internationalization.
 
 ## Contributing
 
